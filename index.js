@@ -1,15 +1,18 @@
-var faker = require('faker');
+let faker = require('faker');
 
-var database = { cars: []};
+let database = { users: []};
+let threshold = 1000;
 
-for (var i = 1; i<= 300; i++) {
-  database.cars.push({
+for (let i = 1; i<= threshold; i++) {
+  database.users.push({
     id: i,
-    name: faker.commerce.productName(),
-    description: faker.lorem.sentences(),
-    price: faker.commerce.price(),
-    imageUrl: "https://source.unsplash.com/1600x900/?car",
-    quantity: faker.random.number()
+    name: faker.name.firstName() + " " + faker.name.lastName(),
+    job: faker.name.jobTitle(),
+    phone: faker.phone.phoneNumber(),
+    userName: faker.internet.userName(),
+    email: faker.internet.email(),
+    image: "https://source.unsplash.com/1600x900/?user", // faker.image.people()
+    country: faker.address.country()
   });
 }
 
