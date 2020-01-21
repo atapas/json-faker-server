@@ -1,6 +1,6 @@
 # json-faker-server
 
-This project showcases how to create a API server in few minutes which can provide you all that you need for building the User Interface Prototype.
+This project showcases how to create an API server in few minutes which can provide you all that you need for building the User Interface Prototype.
 
 ## Ingredients
 
