@@ -8,6 +8,7 @@ for (let i = 1; i<= threshold; i++) {
     id: i,
     name: faker.name.firstName() + " " + faker.name.lastName(),
     job: faker.name.jobTitle(),
+    about: faker.lorem.paragraph(),
     phone: faker.phone.phoneNumber(),
     userName: faker.internet.userName(),
     email: faker.internet.email(),
