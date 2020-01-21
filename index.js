@@ -11,6 +11,7 @@ for (let i = 1; i<= threshold; i++) {
     phone: faker.phone.phoneNumber(),
     userName: faker.internet.userName(),
     email: faker.internet.email(),
+    salary: "$" + faker.finance.amount() + "M",
     image: "https://source.unsplash.com/1600x900/?user", // faker.image.people()
     country: faker.address.country()
   });
