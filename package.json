@@ -1,0 +1,16 @@
+{
+  "name": "faker-json",
+  "version": "1.0.0",
+  "description": "This is a project to use faker with json server",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node ./index.js > ./database.json",
+    "server": "json-server --watch ./database.json"
+  },
+  "author": "Tapas Adhikary",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.15.1"
+  }
+}
