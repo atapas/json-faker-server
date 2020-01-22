@@ -1,7 +1,7 @@
-let faker = require('faker');
+const faker = require('faker');
 
 let database = { users: []};
-let threshold = 1000;
+const threshold = 1000;
 
 for (let i = 1; i<= threshold; i++) {
   database.users.push({

@@ -2,11 +2,10 @@
   "name": "faker-json",
   "version": "1.0.0",
   "description": "This is a project to use faker with json server",
-  "main": "index.js",
   "scripts": {
     "start": "npm run generate & npm run server",
     "generate": "node ./index.js > ./database.json",
-    "server": "json-server --watch ./database.json"
+    "server": "node ./server.js"
   },
   "author": "Tapas Adhikary",
   "license": "MIT",
