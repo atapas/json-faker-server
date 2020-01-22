@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a project to use faker with json server",
   "scripts": {
-    "start": "npm run generate & npm run server",
+    "start": "npm run server",
     "generate": "node index.js > db.json",
     "server": "node server.js"
   },
